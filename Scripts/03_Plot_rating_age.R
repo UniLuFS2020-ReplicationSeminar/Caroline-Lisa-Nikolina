@@ -18,3 +18,4 @@ Company_ratings_tidy |>
   geom_smooth() +
   labs(x = "Age", y = "Rating", title = "Scatter Plot of company age vs. rating (age < 100)")
 ggsave("Visualisations/Plot_age_rating_100.png")
+
