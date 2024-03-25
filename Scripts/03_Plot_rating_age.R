@@ -8,6 +8,7 @@ ggplot(Company_ratings_tidy, aes(x = age, y = rating)) +
   geom_point() +
   geom_smooth() +
   labs(x = "Age", y = "Rating", title = "Scatter Plot of company age vs. rating")
+ggsave("Visualisations/Plot_age_rating.png")
 
 # Plot with only companies that are younger than 100 years
 Company_ratings_tidy |> 
@@ -16,3 +17,4 @@ Company_ratings_tidy |>
   geom_point() +
   geom_smooth() +
   labs(x = "Age", y = "Rating", title = "Scatter Plot of company age vs. rating (age < 100)")
+ggsave("Visualisations/Plot_age_rating_100.png")
