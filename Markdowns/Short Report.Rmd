@@ -13,8 +13,10 @@ Are older companies more likely to be better rated than young enterprises?
 Older companies are better established in the market and have more loyal customers. Therefore, older companies are more likely to be better rated than younger firms.
 
 # Test of the empirical hypothesis
-
+## Plotting the variables age and rating
 First we created a plot visualising the distribution of the ratings across the age of the companies.
 We plotted the metric variable "age" on the x-axis and the categorical variable "rating" on the y-axis.
 
-Plotting it we realised that there are a lot of NAs, so we removed them in a seperate script. Then we plotted the data again in another script.
+Plotting it we realised that there are a lot of NAs, so we removed them in a separate script. Then we plotted the data again in another script.
+
+We saw that there are 6 companies that have an age of 2024 years, which is probably a mistake. After further research, we realised that the companies were founded in different years, so we removed them in the 02_tidy data.R script.
