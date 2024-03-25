@@ -4,26 +4,17 @@ output: html_document
 date: "2024-03-25"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Research Question
 
-## R Markdown
+Are older companies more likely to be better rated than young enterprises?
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Empirical Hypothesis
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Older companies are better established in the market and have more loyal customers. Therefore, older companies are more likely to be better rated than younger firms.
 
-```{r cars}
-summary(cars)
-```
+# Test of the empirical hypothesis
 
-## Including Plots
+First we created a plot visualising the distribution of the ratings across the age of the companies.
+We plotted the metric variable "age" on the x-axis and the categorical variable "rating" on the y-axis.
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Plotting it we realised that there are a lot of NAs, so we removed them in a seperate script. Then we plotted the data again in another script.
