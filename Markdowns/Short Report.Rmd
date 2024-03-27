@@ -18,15 +18,15 @@ Older companies are better established in the market and have more loyal custome
 
 First we created a plot visualising the distribution of the ratings across the age of the companies. We plotted the metric variable "age" on the x-axis and the categorical variable "rating" on the y-axis.
 
-Plotting it we realised that there are a lot of NAs, so we removed them in a separate script. Then we plotted the data again in another script.
+Creating it we realised that there are a lot of NAs, so we removed them in a separate script. Then we plotted the data again in another script.
 
-![](images/Rplot.png)
+![](images/Plot_age_rating.png)
 
-We saw that there are 6 companies that have an age of 2024 years. After further research, we realised that the companies were founded in different years, so we removed them in the 02_tidy data.R script.
+We saw that there are 6 companies that have an age of 2024 years. After further research, we noticed that the companies were founded in different years, so we removed them in the 02_tidy data.R script.
 
 Companies are already well established after 100 years, that's why we created a second plot with companies below 100 years.
 
-![](images/Rplot01.png)
+![](images/Plot_age_rating_100.png)
 
 # Statistical Test
 
