@@ -20,10 +20,14 @@ We plotted the metric variable "age" on the x-axis and the categorical variable 
 
 Plotting it we realised that there are a lot of NAs, so we removed them in a separate script. Then we plotted the data again in another script.
 
-We saw that there are 6 companies that have an age of 2024 years, which is probably a mistake. After further research, we realised that the companies were founded in different years, so we removed them in the 02_tidy data.R script.
+We saw that there are 6 companies that have an age of 2024 years. After further research, we realised that the companies were founded in different years, so we removed them in the 02_tidy data.R script.
 
 Companies are already well established after 100 years, that's why we created a second plot with companies below 100 years. 
 
+# Statistical Test
 To make a statistical test we created linear models for companies until 400 and until 100 years.
 
 Looking at the first model we can see that with every additional year the rating of a company increases by 0.0017988 and in the second model by 0.002921.
+
+# Conclusion
+The results of the statistical tests show that older companies are more likely to be better rated. Even though the coefficients seem relatively low, the effect is still visible, due to the small unit size of the independent variable "age" in years. The results are statistically significant and support the empirical hypothesis.
